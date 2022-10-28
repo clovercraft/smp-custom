@@ -1,0 +1,40 @@
+name: §6Tricky Treat
+lore:
+- §7A sweet treat of...questionable origin
+- §7I'm sure it's fine!
+material: IRON_NUGGET
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 18
+dropOptions:
+  glowDrop: true
+  glowDropColor: DARK_PURPLE
+  displayNameDrop: true
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes: {}

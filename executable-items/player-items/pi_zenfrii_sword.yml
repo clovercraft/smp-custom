@@ -1,0 +1,136 @@
+name: §3Semper Igneus
+lore:
+- '&5&oMay the Everflame'
+- §5§oLight your path
+material: NETHERITE_SWORD
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: true
+storeItemInfo: true
+unbreakable: true
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 2
+dropOptions:
+  glowDrop: true
+  glowDropColor: MAGIC
+  displayNameDrop: true
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: unbreaking
+    level: 3
+  enchantment1:
+    enchantment: fire_aspect
+    level: 3
+  enchantment2:
+    enchantment: looting
+    level: 3
+  enchantment3:
+    enchantment: mending
+    level: 1
+  enchantment4:
+    enchantment: sharpness
+    level: 5
+  enchantment5:
+    enchantment: sweeping
+    level: 3
+  enchantment6:
+    enchantment: knockback
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_CLICK_ON_ENTITY
+    detailedClick: LEFT
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    commands:
+    - PARTICLE SOUL_FIRE_FLAME 50 1.5 0.5
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedEntities: []
+    entityCommands: []
+    entityConditions: {}
+    variablesModification: {}
+  activator1:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownOptions:
+      cooldown: 30
+      isCooldownInTicks: false
+      cooldownMsg: §7Charging (%time_S%)...
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredLevel:
+      requiredLevel: 2
+      errorMessage: §4§l>> §3Not enough XP!
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    commands:
+    - MOB_AROUND 15 true BURN 10
+    - PARTICLE SOUL_FIRE_FLAME 200 0.5 2
+    playerConditions:
+      ifSneaking: true
+      ifSneakingMsg: ''
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+attributes: {}

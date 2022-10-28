@@ -1,0 +1,73 @@
+name: Potion of Greater Fire Resistance
+lore:
+- '&a&obrewed by Pirate Snark'
+- §73 Uses Max
+material: POTION
+glow: false
+disableStack: true
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: true
+storeItemInfo: true
+unbreakable: false
+usage: 0
+usageLimit: 3
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+potionEffects:
+  pEffect0:
+    isAmbient: false
+    duration: 36000
+    potionEffectType: FIRE_RESISTANCE
+    amplifier: 0
+    hasParticles: true
+    hasIcon: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: unbreaking
+    level: 1
+  enchantment1:
+    enchantment: unbreaking
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-delete-by-lightning: true
+  cancel-item-burn: true
+  cancel-item-delete-by-cactus: true
+variables:
+  var0:
+    variableName: uses
+    type: NUMBER
+    default: 0.0
+activators: {}
+potionSettings:
+  potionColor: 15207954
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects:
+    pEffect0:
+      isAmbient: false
+      duration: 36000
+      potionEffectType: FIRE_RESISTANCE
+      amplifier: 0
+      hasParticles: true
+      hasIcon: true
+attributes: {}

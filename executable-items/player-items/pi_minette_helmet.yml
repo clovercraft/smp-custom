@@ -1,0 +1,72 @@
+name: ☠ Minette's Veil ☠
+lore:
+- §7§oMemento mori
+material: IRON_NUGGET
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 11
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDye: true
+enchantments:
+  enchantment0:
+    enchantment: unbreaking
+    level: 3
+  enchantment1:
+    enchantment: protection
+    level: 4
+  enchantment2:
+    enchantment: mending
+    level: 1
+  enchantment3:
+    enchantment: thorns
+    level: 3
+  enchantment4:
+    enchantment: respiration
+    level: 3
+  enchantment5:
+    enchantment: aqua_affinity
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-burn: true
+  cancel-item-delete-by-lightning: true
+  cancel-item-delete-by-cactus: true
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    operation: MULTIPLY_SCALAR_1
+    amount: 1.1
+    slot: HEAD
+    uuid: 514317f1-4cb8-4cb0-b876-22e5892762f8
+  attribute0:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    uuid: 46a829fa-b5ee-427e-b919-05d1870b7dea

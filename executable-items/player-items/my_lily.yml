@@ -1,0 +1,72 @@
+name: §5§oMy Lily
+lore: []
+material: LILY_OF_THE_VALLEY
+glow: true
+disableStack: true
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 1
+usageLimit: -1
+durability: 0
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+nbt:
+  '0':
+    key: display
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: Name
+          type: STRING
+          value: '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"My
+            Lily"}],"text":""}'
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+enchantments:
+  enchantment0:
+    enchantment: unbreaking
+    level: 3
+  enchantment1:
+    enchantment: protection
+    level: 4
+  enchantment2:
+    enchantment: aqua_affinity
+    level: 1
+  enchantment3:
+    enchantment: respiration
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    operation: MULTIPLY_SCALAR_1
+    amount: 1.1
+    slot: HEAD
+    uuid: b5cd7a5a-c428-45cc-9295-829cd5c03013
+  attribute0:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    uuid: de6bbdfa-1ab0-4216-9a59-c2f3f57b07fd

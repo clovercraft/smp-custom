@@ -1,0 +1,79 @@
+name: §3Hat of the Banished
+lore:
+- '&7A battered old hat'
+- §7That's always warm and cozy
+material: IRON_NUGGET
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 13
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: unbreaking
+    level: 3
+  enchantment1:
+    enchantment: mending
+    level: 1
+  enchantment2:
+    enchantment: protection
+    level: 4
+  enchantment3:
+    enchantment: respiration
+    level: 3
+  enchantment4:
+    enchantment: aqua_affinity
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    uuid: 714d74b9-d11b-4211-b75a-4ea5e7243acf
+  attribute0:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    uuid: 2a7577b8-e882-4b20-bf0d-14088e7aacee
+  attribute3:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 0.0
+    slot: HAND
+    uuid: e38bf9b4-beae-4e79-a214-636dc1876ead
+  attribute2:
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    operation: MULTIPLY_SCALAR_1
+    amount: 1.1
+    slot: HEAD
+    uuid: 1b3b87ec-25a0-44d7-b465-0cac11b3fe09

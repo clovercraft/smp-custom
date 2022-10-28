@@ -1,0 +1,57 @@
+name: §b§oAvast, ye scallywag!
+lore:
+- '&b&oDefault lore'
+material: NETHERITE_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: fire_aspect
+    level: 2
+  enchantment1:
+    enchantment: looting
+    level: 3
+  enchantment2:
+    enchantment: mending
+    level: 1
+  enchantment3:
+    enchantment: sharpness
+    level: 5
+  enchantment4:
+    enchantment: sweeping
+    level: 3
+  enchantment5:
+    enchantment: unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes: {}

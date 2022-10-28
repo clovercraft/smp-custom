@@ -1,0 +1,73 @@
+name: §5Serpenfurr Crown
+lore:
+- §7A crown awarded only to the
+- §7grand city of Serpenfurr's loyal members.
+material: IRON_NUGGET
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 15
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: unbreaking
+    level: 3
+  enchantment1:
+    enchantment: mending
+    level: 1
+  enchantment2:
+    enchantment: protection
+    level: 4
+  enchantment3:
+    enchantment: aqua_affinity
+    level: 1
+  enchantment4:
+    enchantment: respiration
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    uuid: d2dcb697-78bc-4bff-8027-2bd8dc0528d3
+  attribute0:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    uuid: a5497dd4-730f-45e5-a922-4cc039f24f9d
+  attribute2:
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    operation: MULTIPLY_SCALAR_1
+    amount: 1.1
+    slot: HEAD
+    uuid: fe807af2-b1a6-4e67-ac75-c70ccf0d3f31
